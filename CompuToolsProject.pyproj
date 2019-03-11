@@ -1,0 +1,148 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>1a18a946-2887-4ab8-8d2b-f245d0bb32d1</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>Demo.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>CompuToolsProject</Name>
+    <RootNamespace>CompuToolsProject</RootNamespace>
+    <IsWindowsApplication>False</IsWindowsApplication>
+    <InterpreterId>Global|PythonCore|3.7</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Categorization.py" />
+    <Compile Include="Demo2.py" />
+    <Compile Include="Demo.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DatabaseWiki.py" />
+    <Compile Include="ParseDumpWiki.py" />
+    <Compile Include="MapReduce.py" />
+    <Compile Include="mainPageDoxygen.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Documentation\" />
+    <Folder Include="Documentation\html\" />
+    <Folder Include="Documentation\html\search\" />
+    <Folder Include="Documentation\Images\" />
+    <Folder Include="Info\" />
+    <Folder Include="Info\ProjectPlan\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Documentation\Doxyfile" />
+    <Content Include="Documentation\footer.html" />
+    <Content Include="Documentation\header.html" />
+    <Content Include="Documentation\html\annotated.html" />
+    <Content Include="Documentation\html\bc_s.png" />
+    <Content Include="Documentation\html\bdwn.png" />
+    <Content Include="Documentation\html\classdatabase_wiki_1_1database_wiki-members.html" />
+    <Content Include="Documentation\html\classdatabase_wiki_1_1database_wiki.html" />
+    <Content Include="Documentation\html\classes.html" />
+    <Content Include="Documentation\html\class_parse_dump_wiki_1_1_parse_dump_wiki-members.html" />
+    <Content Include="Documentation\html\class_parse_dump_wiki_1_1_parse_dump_wiki.html" />
+    <Content Include="Documentation\html\closed.png" />
+    <Content Include="Documentation\html\dir_d00f5e20d7b27686287f9c84bc9112f8.html" />
+    <Content Include="Documentation\html\doc.png" />
+    <Content Include="Documentation\html\doxygen.png" />
+    <Content Include="Documentation\html\dynsections.js" />
+    <Content Include="Documentation\html\folderclosed.png" />
+    <Content Include="Documentation\html\folderopen.png" />
+    <Content Include="Documentation\html\functions.html" />
+    <Content Include="Documentation\html\functions_func.html" />
+    <Content Include="Documentation\html\index.html" />
+    <Content Include="Documentation\html\jquery.js" />
+    <Content Include="Documentation\html\Logo.png" />
+    <Content Include="Documentation\html\menu.js" />
+    <Content Include="Documentation\html\menudata.js" />
+    <Content Include="Documentation\html\namespacedatabase_wiki.html" />
+    <Content Include="Documentation\html\namespaces.html" />
+    <Content Include="Documentation\html\namespacetest_parse_dump_wiki.html" />
+    <Content Include="Documentation\html\namespace_parse_dump_wiki.html" />
+    <Content Include="Documentation\html\nav_f.png" />
+    <Content Include="Documentation\html\nav_g.png" />
+    <Content Include="Documentation\html\nav_h.png" />
+    <Content Include="Documentation\html\open.png" />
+    <Content Include="Documentation\html\search\all_0.html" />
+    <Content Include="Documentation\html\search\all_0.js" />
+    <Content Include="Documentation\html\search\all_1.html" />
+    <Content Include="Documentation\html\search\all_1.js" />
+    <Content Include="Documentation\html\search\all_2.html" />
+    <Content Include="Documentation\html\search\all_2.js" />
+    <Content Include="Documentation\html\search\all_3.html" />
+    <Content Include="Documentation\html\search\all_3.js" />
+    <Content Include="Documentation\html\search\all_4.html" />
+    <Content Include="Documentation\html\search\all_4.js" />
+    <Content Include="Documentation\html\search\classes_0.html" />
+    <Content Include="Documentation\html\search\classes_0.js" />
+    <Content Include="Documentation\html\search\classes_1.html" />
+    <Content Include="Documentation\html\search\classes_1.js" />
+    <Content Include="Documentation\html\search\close.png" />
+    <Content Include="Documentation\html\search\functions_0.html" />
+    <Content Include="Documentation\html\search\functions_0.js" />
+    <Content Include="Documentation\html\search\functions_1.html" />
+    <Content Include="Documentation\html\search\functions_1.js" />
+    <Content Include="Documentation\html\search\mag_sel.png" />
+    <Content Include="Documentation\html\search\namespaces_0.html" />
+    <Content Include="Documentation\html\search\namespaces_0.js" />
+    <Content Include="Documentation\html\search\namespaces_1.html" />
+    <Content Include="Documentation\html\search\namespaces_1.js" />
+    <Content Include="Documentation\html\search\namespaces_2.html" />
+    <Content Include="Documentation\html\search\namespaces_2.js" />
+    <Content Include="Documentation\html\search\nomatches.html" />
+    <Content Include="Documentation\html\search\search.css" />
+    <Content Include="Documentation\html\search\search.js" />
+    <Content Include="Documentation\html\search\searchdata.js" />
+    <Content Include="Documentation\html\search\search_l.png" />
+    <Content Include="Documentation\html\search\search_m.png" />
+    <Content Include="Documentation\html\search\search_r.png" />
+    <Content Include="Documentation\html\splitbar.png" />
+    <Content Include="Documentation\html\stylesheet.css" />
+    <Content Include="Documentation\html\sync_off.png" />
+    <Content Include="Documentation\html\sync_on.png" />
+    <Content Include="Documentation\html\tabs.css" />
+    <Content Include="Documentation\html\tab_a.png" />
+    <Content Include="Documentation\html\tab_b.png" />
+    <Content Include="Documentation\html\tab_h.png" />
+    <Content Include="Documentation\html\tab_s.png" />
+    <Content Include="Documentation\Images\Coseno.png" />
+    <Content Include="Documentation\Images\IRSystem.png" />
+    <Content Include="Documentation\Images\Logo.png" />
+    <Content Include="Documentation\Images\ModelloVettoriale.png" />
+    <Content Include="Documentation\Images\Pesi.png" />
+    <Content Include="Documentation\stylesheet.css" />
+    <Content Include="Info\ProjectPlan\document.tex" />
+    <Content Include="Info\ProjectPlan\Project.pdf" />
+    <Content Include="Info\ProjectPlan\Timeline.mpp" />
+    <Content Include="Info\ProjectPlan\timeline.PNG" />
+    <Content Include="Info\SumUp.docx" />
+    <Content Include="Info\SumUp.pdf" />
+    <Content Include="README.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|3.7" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
